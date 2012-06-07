@@ -1,0 +1,39 @@
+Requirements for 1.0:
+
+* Helpfile
+* User-configurable keybindings, use KeyBinder
+* Check that broken pages are only tried once
+* Open next book in series or directory
+* Box Zoom/Magnifying Glass - started, postponed for now
+* Info file display
+* Better code annotation and documentation
+* Switch to Subversion
+* Store image dimensions permanently
+	prefetch image headers to get dimensions
+
+Nice-to-have features:
+
+* Bookmarks, resume last comic book on open
+* resizable ComicalBrowser
+* Intel/PPC Fat binary on MacOSX, requires latest XCode and Tiger
+* run source code through beautifier
+* const-correctness
+* look for any remaining memory leaks
+* the switch to PNG seems to have made startup slower
+* Multi-document mode on Mac OS X (i.e., act like a native Mac app)
+
+Long-term whiz-bang features:
+
+* Investigate painting only the damaged rectangle instead of the whole canvas
+* OpenGL backend
+* New comic book creation wizard
+	Could be good vehicle to encourage new file format
+* New file format
+	JPEG2000 support?
+	bzip2 / 7zip / zzip archives?
+* proper wxDocManager/wxDocument/wxView implementation
+* multi-volume RAR
+
+Bugs:
+* When landscape page is shown, make both sets of rotation buttons work
+* Automatically generate PNG headers on MacOS X in XCode
